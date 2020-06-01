@@ -43,16 +43,20 @@ class _ExperiencePageState extends State<ExperiencePage> {
                 children: <Widget>[
                   Container(
                     width: size.width * 0.9,
-                    child: Flexible(
-                      child: Text(
-                        'Desarrollador de Aplicaciones Móviles',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.greenAccent[700],
-                          fontWeight: FontWeight.bold
+                    child: Row(
+                      children: <Widget>[
+                        Flexible(
+                          child: Text(
+                            'Desarrollador de Aplicaciones Móviles',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.greenAccent[700],
+                              fontWeight: FontWeight.bold
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
+                      ],
+                    )
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -100,17 +104,21 @@ class _ExperiencePageState extends State<ExperiencePage> {
                 children: <Widget>[
                   Container(
                     width: size.width * 0.9,
-                    child: Flexible(
-                      child: Text(
-                        'Institute of Electrical and Electronics Engineers',
-                        textAlign: TextAlign.end,
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.greenAccent[700],
-                          fontWeight: FontWeight.bold
+                    child: Row(
+                      children: <Widget>[
+                        Flexible(
+                          child: Text(
+                            'Institute of Electrical and Electronics Engineers',
+                            textAlign: TextAlign.end,
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.greenAccent[700],
+                              fontWeight: FontWeight.bold
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
+                      ],
+                    )
                   ),
                   SizedBox(height: 10),
                   Row(
@@ -159,16 +167,20 @@ class _ExperiencePageState extends State<ExperiencePage> {
                 children: <Widget>[
                   Container(
                     width: size.width * 0.9,
-                    child: Flexible(
-                      child: Text(
-                        'Analista',
-                        style: TextStyle(
-                          fontSize: 15,
-                          color: Colors.greenAccent[700],
-                          fontWeight: FontWeight.bold
+                    child: Row(
+                      children: <Widget>[
+                        Flexible(
+                          child: Text(
+                            'Analista',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.greenAccent[700],
+                              fontWeight: FontWeight.bold
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
+                      ],
+                    )
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -244,17 +256,21 @@ class _ExperiencePageState extends State<ExperiencePage> {
                       children: <Widget>[
                         Container(
                           width: size.width * 0.6,
-                          child: Flexible(
-                            child: Text(
-                              'Hackaton HackTech COVID',
-                              textAlign: TextAlign.end,
-                              style: TextStyle(
-                                fontSize: 15,
-                                color: Colors.greenAccent[700],
-                                fontWeight: FontWeight.bold
+                          child: Row(
+                            children: <Widget>[
+                              Flexible(
+                                child: Text(
+                                  'Hackaton HackTech COVID',
+                                  textAlign: TextAlign.end,
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    color: Colors.greenAccent[700],
+                                    fontWeight: FontWeight.bold
+                                  ),
+                                ),
                               ),
-                            ),
-                          ),
+                            ],
+                          )
                         ),
                         SizedBox(height: 10),
                         Container(

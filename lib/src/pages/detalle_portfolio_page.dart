@@ -49,7 +49,7 @@ class _DetallePortfolioState extends State<DetallePortfolio> {
               borderRadius: BorderRadius.circular(20.0),
               child: Image(
                 image: AssetImage( app['imagen']),
-                height: 250.0,
+                height: 200.0,
               ),
             ),
           ),

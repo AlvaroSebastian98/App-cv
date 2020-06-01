@@ -29,7 +29,7 @@ class MovieHorizontal extends StatelessWidget {
 
 
     return Container(
-      height: _screenSize.height * 0.2,
+      height: _screenSize.height * 0.3,
       child: PageView.builder(
         pageSnapping: false,
         controller: _pageController,
@@ -53,10 +53,10 @@ class MovieHorizontal extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(20.0),
               child: FadeInImage(
-                image: AssetImage( app),
+                image: AssetImage(app),
                 placeholder: AssetImage('assets/images/no-image.jpg'),
                 fit: BoxFit.cover,
-                height: 160.0,
+                height: 230.0,
               ),
             ),
             SizedBox(height: 5.0),

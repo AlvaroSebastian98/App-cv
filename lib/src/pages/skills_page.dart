@@ -1,6 +1,5 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:charts_flutter/flutter.dart' as charts;
 
 class SkillsPage extends StatefulWidget {
   SkillsPage({Key key}) : super(key: key);
